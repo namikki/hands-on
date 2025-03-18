@@ -1,17 +1,16 @@
+ /* Estilo personalizado para o carrossel */
+ .carousel-item img {
+    height: 400px; /* Altura fixa para o carrossel */
+    object-fit: cover; /* Garante que a imagem cubra o espaço sem distorcer */
+}
+
+/* Espaçamento para o conteúdo não ficar sob a navbar fixa */
 body {
-    display: flex;
-    flex-direction: column;
-    min-height: 100vh;
+    padding-top: 56px; /* Altura da navbar fixa */
 }
-.content {
-    flex: 1;
-}
+
+/* Rodapé não fixo */
 footer {
-    background: #343a40;
-    color: white;
-    text-align: center;
-    padding: 10px;
-    position: relative;
-    bottom: 0;
-    width: 100%;
+    position: static; /* Remove o fixed-bottom */
+    margin-top: 2rem; /* Adiciona margem superior */
 }
