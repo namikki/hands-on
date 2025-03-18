@@ -25,3 +25,10 @@ iframe {
 .contact-info {
     margin-top: 2rem;
 }
+
+/* Estilo para a imagem */
+.about-img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px; /* Bordas arredondadas */
+}
