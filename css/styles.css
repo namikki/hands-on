@@ -14,3 +14,14 @@ footer {
     position: static; /* Remove o fixed-bottom */
     margin-top: 2rem; /* Adiciona margem superior */
 }
+
+/* Ajuste de altura para o iframe do mapa */
+iframe {
+    height: 100%;
+    min-height: 400px; /* Altura mínima para o mapa */
+}
+
+/* Espaçamento para as informações de contato */
+.contact-info {
+    margin-top: 2rem;
+}
